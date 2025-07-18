@@ -151,8 +151,8 @@ const ShopContextProvider = ({ children }) => {
         currency,
         delivery_fee,
         search, setSearch, showSearch, setShowSearch,
-        cartItems, setCartItems, addToCart, getCartCount, updateQuantity, getCartAmount,
-        navigate,
+        cartItems, addToCart, getCartCount, updateQuantity, getCartAmount,
+        navigate, setCartItems,
         backendUrl,
         token, setToken
     }
